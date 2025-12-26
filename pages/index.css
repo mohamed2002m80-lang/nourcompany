@@ -212,9 +212,8 @@
 }
 
 @media (max-width: 768px) {
-    .hero h1 { font-size: 2.5rem; 
-             background-size:300px;
-             }
+    .hero h1 { font-size: 2.5rem; }
+    .hero{ backgrounf-size:1000px}
     .btn-group { flex-direction: row; }
     .services-grid{
         grid-template-columns: 1fr;}
@@ -241,4 +240,5 @@
     animation: slideUpFade 1.2s ease-out forwards;
 
 }
+
 
