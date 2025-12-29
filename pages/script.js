@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // رسالة تأكيد الارسال في صفحة الاتصال
 document.querySelector('form').addEventListener('submit', function (e) {
+  e.preventDefault();
   Swal.fire({
     title: "تم الإرسال!",
     text: "لقد استلمنا رسالتك وسنقوم بالرد عليك قريباً.",
@@ -82,4 +83,5 @@ document.querySelector('form').addEventListener('submit', function (e) {
     }
   });
 });
+
 
